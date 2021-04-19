@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Awesome Tab Images Gallery</title>
+    <link rel="stylesheet" href="/css/master.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="images">
+      <img onclick="changeimg(this)" src="Img/img1.jpg">
+      <img onclick="changeimg(this)" src="Img/img2.jpg">
+      <img onclick="changeimg(this)" src="Img/img3.jpg">
+      <img onclick="changeimg(this)" src="Img/img4.jpg">
+    </div>
+    <div class="pre">
+      <a onclick="this.parentElement.style.display='none'" class="fas fa-times"></a>
+      <img id="p" src="Img/img1.jpg">
+    </div>
+  </body>
+  <script src="https://kit.fontawesome.com/81cad37d52.js"></script>
+  <script src="js/main.js" charset="utf-8"></script>
+</html>
